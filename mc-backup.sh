@@ -1,9 +1,8 @@
 #!/bin/bash
 
-############################################
-# Minecraft Backup Script v0.4             #
-# Author: Mark Ide <cranstonide@gmail.com> #
-############################################
+# Minecraft Backup Script                  
+# Author: Mark Ide <cranstonide@gmail.com> 
+# Github: https://github.com/cranstonide/linux-minecraft-scripts
 
 ############################################
 # Script Settings                          #
