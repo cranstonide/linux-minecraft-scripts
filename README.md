@@ -1,6 +1,6 @@
 Linux Minecraft Scripts
 =======================
-Scripts to aid in the hosting of Minecraft servers on a Linux enviornment
+Scripts to aid in the hosting of vanilla* [Minecraft](http://www.minecraft.net) servers on a Linux enviornment.
 
 Feel free to clone this repository into your server enviornment to add some much needed funciionality. 
 
@@ -18,5 +18,7 @@ or by running the command manually, as shown below:
 Notes
 -----
 These scripts are to help manage a [Minecraft](http://www.minecraft.net) server running on Linux. They are bash scripts; so they won't run on your Windows installation without some major refactoring. The installation also heavily relies on a working installation of [GNU Screen](http://www.gnu.org/software/screen/). 
+
+ **These scripts have not been tested with any third party servers. They may work, but your milage may vary.*
 
 More documentation is on its way.
