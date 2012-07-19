@@ -29,8 +29,9 @@ screen -p 0 -S minecraft -X eval "stuff \"save-all\"\015"
 # Wait a few seconds to make sure that Minecraft has finished backing up.
 sleep 5
 
-# Create a copy for the most recent server image directory (its a convient way to recover single player data or chunks without unzipping the whole archive)
-# If you don't need a directory with the most recent image, please comment this section out.
+# Create a copy for the most recent server image directory (its a convenient way to recover 
+# a single players' data or chunks without unzipping the whole archive). If you don't need a 
+# directory with the most recent image, you may comment this section out.
 rm -rvf $backupDir/$severNick-most-recent
 mkdir $backupDir/$severNick-most-recent
 cp -Rv $minecraftDir/* $backupDir/$severNick-most-recent
