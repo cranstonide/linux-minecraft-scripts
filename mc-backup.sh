@@ -37,7 +37,7 @@ mkdir $backupDir/$severNick-most-recent
 cp -Rv $minecraftDir/* $backupDir/$severNick-most-recent
 
 # Create an archived copy in .tar.gz format.
-DATE=`date +%Y.%m.%d`
+DATE=$(date +%Y.%m.%d)
 rm -rvf $backupDir/$severNick-$DATE.tar.gz
 tar -cvzf $backupDir/$severNick-$DATE.tar.gz $minecraftDir/*
 
