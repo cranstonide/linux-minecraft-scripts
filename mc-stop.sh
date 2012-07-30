@@ -7,6 +7,6 @@
 # Alert the players that the server is going to be shut down.
 screen -p 0 -S minecraft -X eval "stuff \"say Server will be shutting down in 10 seconds.\"\015"
 
-# Wait a moment and stop the server to do the backup.
+# Wait a moment and stop the server.
 sleep 10
 screen -p 0 -S minecraft -X eval "stuff \"stop\"\015"
