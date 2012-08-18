@@ -39,5 +39,3 @@ Notes
 These scripts are to help manage a [Minecraft](http://www.minecraft.net) server running on Linux. They are bash scripts; so they won't run on your Windows installation without some major refactoring. The installation also heavily relies on a working installation of [GNU Screen](http://www.gnu.org/software/screen/). 
 
  **These scripts have not been tested with any third party servers. They may work, but your milage may vary.*
-
-More documentation is on its way.
