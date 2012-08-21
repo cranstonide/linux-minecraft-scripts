@@ -15,8 +15,8 @@ backupDir="/home/user/backups"
 # Where are the files you wish to backup? The script will backup everything in this directory.
 minecraftDir="/home/user/minecraft"
 
-# Do you have more than one sever? What do you want to call this one?
-severNick="minecraft"    
+# Do you have more than one server? What do you want to call this one?
+serverNick="minecraft"    
 
 ############################################
 # End of settings; Do not modify below     #
@@ -32,14 +32,14 @@ sleep 5
 # Create a copy for the most recent server image directory (its a convenient way to recover 
 # a single players' data or chunks without unzipping the whole archive). If you don't need a 
 # directory with the most recent image, you may comment this section out.
-rm -rvf $backupDir/$severNick-most-recent
-mkdir $backupDir/$severNick-most-recent
-cp -Rv $minecraftDir/* $backupDir/$severNick-most-recent
+rm -rvf $backupDir/$serverNick-most-recent
+mkdir $backupDir/$serverNick-most-recent
+cp -Rv $minecraftDir/* $backupDir/$serverNick-most-recent
 
 # Create an archived copy in .tar.gz format.
 DATE=$(date +%Y.%m.%d)
-rm -rvf $backupDir/$severNick-$DATE.tar.gz
-tar -cvzf $backupDir/$severNick-$DATE.tar.gz $minecraftDir/*
+rm -rvf $backupDir/$serverNick-$DATE.tar.gz
+tar -cvzf $backupDir/$serverNick-$DATE.tar.gz $minecraftDir/*
 
 # Don't forget to take the server out of readonly mode.
 screen -p 0 -S minecraft -X eval "stuff \"save-on\"\015"
