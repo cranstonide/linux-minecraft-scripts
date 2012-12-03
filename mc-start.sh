@@ -4,8 +4,8 @@
 # Author: Mark Ide <cranstonide@gmail.com> 
 # Github: https://github.com/cranstonide/linux-minecraft-scripts
 
-# Location of the minecraft_server.jar (directory containing, no trailing slash)
-minecraftDir="/home/user/minecraft"
+# Read configuration file
+source mc-config.cfg
 
 # Move into the minecraft directory.
 cd $minecraftDir
