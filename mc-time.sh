@@ -20,7 +20,7 @@ then
     exit 1
 fi
 
-# Make sue the number they passed isn't too big.
+# Make sure the number they passed isn't too big.
 # Negative numbers are handled by the above conditional (they're not integers, but rather strings.)
 if [ $1 -gt 18000 ]
 then
