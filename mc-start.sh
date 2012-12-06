@@ -14,4 +14,4 @@ source mc-config.cfg
 cd $minecraftDir
 
 # Start the game in a GNU screen. It will detatch automatically.
-screen -dmS minecraft java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
+screen -dmS minecraft java -Xmx1024M -Xms1024M -jar $minecraftJar nogui
