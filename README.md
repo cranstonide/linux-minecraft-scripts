@@ -9,6 +9,8 @@ Setting up Enviornment
 In order to use these scripts, you'll just have to clone the repository. Make sure you have `git`, `screen`, and `java` installed.
 
     git clone https://github.com/cranstonide/linux-minecraft-scripts
+    
+Don't forget to edit the `mc-config.cfg` to meet your setup. The scripts won't work correctly if you don't customize the config file first.
 
 Starting the Server
 -------------------
