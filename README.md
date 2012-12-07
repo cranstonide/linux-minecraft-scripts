@@ -39,7 +39,5 @@ These scripts are to help manage a [Minecraft](http://www.minecraft.net) server 
 TODO
 ----
 These are some features I may add eventually.
-- Updating (`wget minecraft_server.jar`)
 - Administrative interface (for starting and stopping)
-- Ability to clone and run out of the box. No nother config needed.
 - Add submodules for rendering and log viewers.
