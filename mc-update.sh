@@ -10,6 +10,8 @@ cd "$( dirname $0 )"
 # Read configuration file
 source mc-config.cfg
 
+#TODO - Only backup if $updateUrl != ""
+
 # Backup the server
 source mc-backup.sh
 
