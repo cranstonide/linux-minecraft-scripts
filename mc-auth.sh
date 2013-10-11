@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Minecraft Script to view all authentications to the server
-# Author: Mark Ide <cranstonide@gmail.com> 
 # Github: https://github.com/cranstonide/linux-minecraft-scripts
 
 # Move into the directory with all Linux-Minecraft-Scripts

@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Minecraft Time Setter
-# Author: Mark Ide <cranstonide@gmail.com> 
 # Github: https://github.com/cranstonide/linux-minecraft-scripts
 
 # Move into the directory with all Linux-Minecraft-Scripts
@@ -34,7 +33,7 @@ then
     exit 1
 fi
 
-# Send the time set command into 
+# Send the time set command into
 screen -p 0 -S minecraft -X eval "stuff \"time set $1\"\015"
 
 # (Optionally) Tell the players that the time has changed.

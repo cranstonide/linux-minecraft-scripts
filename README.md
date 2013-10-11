@@ -2,14 +2,14 @@ Linux Minecraft Scripts
 =======================
 Scripts to aid in the hosting of vanilla* [Minecraft](http://www.minecraft.net) servers on a Linux enviornment.
 
-Feel free to clone this repository into your server enviornment to add some much needed funciionality. 
+Feel free to clone this repository into your server enviornment to add some much needed funciionality.
 
 Setting up Enviornment
 ----------------------
 In order to use these scripts, you'll just have to clone the repository. Make sure you have `git`, `screen`, and `java` installed.
 
     git clone https://github.com/cranstonide/linux-minecraft-scripts
-    
+
 Don't forget to edit the `mc-config.cfg` to meet your setup. The scripts won't work correctly if you don't customize the config file first.
 
 Starting the Server
@@ -26,13 +26,13 @@ You can shut down the server (and give people a heads up) using the provided scr
 
 Accessing the Console
 ---------------------
-If you need to reach the Minecraft console, you may do so by running the following command. 
+If you need to reach the Minecraft console, you may do so by running the following command.
 
     screen -r minecraft
 
 Notes
 -----
-These scripts are to help manage a [Minecraft](http://www.minecraft.net) server running on Linux. They are bash scripts; so they won't run on your Windows installation without some major refactoring. The installation also heavily relies on a working installation of [GNU Screen](http://www.gnu.org/software/screen/). 
+These scripts are to help manage a [Minecraft](http://www.minecraft.net) server running on Linux. They are bash scripts; so they won't run on your Windows installation without some major refactoring. The installation also heavily relies on a working installation of [GNU Screen](http://www.gnu.org/software/screen/).
 
 *These scripts have not been tested with any third party servers. They may work, but your milage may vary.*
 

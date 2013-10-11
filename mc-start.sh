@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Minecraft Startup Script                  
-# Author: Mark Ide <cranstonide@gmail.com> 
+# Minecraft Startup Script
 # Github: https://github.com/cranstonide/linux-minecraft-scripts
 
 # Move into the directory with all Linux-Minecraft-Scripts

@@ -1,10 +1,9 @@
 #!/bin/bash
 
 # Minecraft Script to temprararily enable creative mode (just for fun)
-# Author: Mark Ide <cranstonide@gmail.com> 
 # Github: https://github.com/cranstonide/linux-minecraft-scripts
 
-# It's a good idea to back up before running this script. It does its own backup, 
+# It's a good idea to back up before running this script. It does its own backup,
 # but expecially during your first couple runs its a safe idea.
 
 ############################################
@@ -38,11 +37,11 @@ screen -p 0 -S minecraft -X eval "stuff \"stop\"\015"
 sleep 10
 
 # Backup the server into a temporary location.
-rm -rvf $tempDir/ 
+rm -rvf $tempDir/
 mkdir $tempDir/
 cp -rvf $minecraftDir/ $tempDir/
 
-# The server is now running in its temporary mode. 
+# The server is now running in its temporary mode.
 ./mc-start.sh
 sleep 10
 screen -p 0 -S minecraft -X eval "stuff \"say The server is now in TNT mode.\"\015"
@@ -54,11 +53,11 @@ sleep 1
 for ((c=$min; c>=0; c--))
 do
 sleep 60
-   
+
 ############################################
 # Creative Mode Actions Begin Here         #
 ############################################
-    
+
    # This section id still under development.
    # give each person TNT
    for ((d=0; d<=4; d++))

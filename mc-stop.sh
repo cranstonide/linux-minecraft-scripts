@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Minecraft Stop Script
-# Author: Mark Ide <cranstonide@gmail.com> 
 # Github: https://github.com/cranstonide/linux-minecraft-scripts
 
 # Move into the directory with all Linux-Minecraft-Scripts
