@@ -1,5 +1,12 @@
 Linux Minecraft Scripts
 =======================
+
+***
+
+:bangbang: **Notice: I've stopped actively working on these scripts and began developing [a Rakefile based system](https://github.com/cranstonide/minecraft-rakefile) instead.** :bangbang:
+
+***
+
 Scripts to aid in the hosting of vanilla* [Minecraft](http://www.minecraft.net) servers on a Linux enviornment.
 
 Feel free to clone this repository into your server enviornment to add some much needed funciionality.
